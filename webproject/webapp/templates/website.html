@@ -1,0 +1,148 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="bg">
+     <img src="{% static 'images/logo.png' %}" style="width: 250px; height: 100px; padding-left: 100px;">
+     <button class="btn btn-primary" style="margin-left: 2px; margin-top: 35px;"><i class="bi bi-lock"></i>LOGIN</button>
+     <button class="btn btn-success" style="margin-right: 2px; margin-top: 35px;">REGISTER</button>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Course</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </nav>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="color: purple;">
+                <h1 style="font-size: 80px;">SOFTWARE</h1>
+                <h1  style="font-size: 80px;">INTERNSHIP</h1>
+                <p style="font-weight: bolder;">PYTHON|PHP|ANGULAR|JAVA</p>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="background-color: greenyellow;">
+                <img src="{% static 'images/hacking.jpg' %}" alt="" style="width: 250px;">
+            </div>
+            <div class="col-xs-2.5 col-sm-2.5 col-md-2.5 col-lg-2.5" style="background-color: yellow;">
+                <img src="{% static 'images/man.png' %}" alt="" style="width: 250px;">
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="background-color: orchid;">
+                <img src="{% static 'images/teaching.png' %}" alt="" style="width: 150px;">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="background-color: purple;">
+                <img src="{% static 'images/youngman.jpg' %}" alt="" style="width: 250px;">
+            </div>
+            <div class="col-xs-2.5 col-sm-2.5 col-md-2.5 col-lg-2.5" style="background-color: orange;">
+              <img src="{% static 'images/office.png' %}" alt="" style="width: 250px;">
+            </div>
+          </div>
+        </div><br>
+             <div class="container"> 
+              <div class="row"> 
+                <center>
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10" style="background-color: darkblue; color: white; text-align: center; font-size: 40px;">
+                  GETTING A SOFTWARE JOB IS SO EASY WITH OUR
+                  INTERNSHIP PROGRAM
+                </center>
+                </div>
+              </div>
+             </div><br>
+             <div class="container">
+               <div class="row">
+                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="{% static 'images/1.jpg' %}" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Baabtra 1</h5>
+                          <p>A Door To IT Industry...</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="{% static 'images/2.jpg' %}" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Baabtra 2</h5>
+                          <p>Learn From The Experts...</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="{% static 'images/3.jpg' %}" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Baabtra 3</h5>
+                          <p>Step Into The IT World...</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </button>
+                  </div>
+                 </div>
+                 <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                   <h1>Best Python Training In Calicut</h1>
+                   <p>Python is one of the hot programming languages nowadays. Many freshers are learning this software development technology and are getting placed as Python Developer in Software Companies. Baabtra has the highest number of candidates got trained in Python in the last year. We train you to develop a web application using Python with Django framework and MySql database.
+
+                    Python training course for freshers to make them good programmers through quality training in Python & Django Framework in Calicut.</p>
+
+                 </div>
+               </div>
+             </div><br>
+             <div class="container">
+               <div class="row">
+                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="background-color: aquamarine;">
+                   <label for="" style="font-weight: bolder;">Baabtra</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+                   <label for="" style="font-weight: bolder;">Email: info@baabtra.gmail.com</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   <label for="" style="font-weight: bolder;">Address:</label><br>
+                   <label for="" style="font-size: 11px;">Monitoring Partner</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   <label for="">Phone: +918502058444</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   <label for="">5th Floor Hilite Business Park</label>
+                 </div>
+               </div>
+             </div>
+        
+        
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>

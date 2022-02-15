@@ -1,0 +1,20 @@
+.bg{
+    background-color:azure;
+    width: 100%;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+button{
+    float: right; 
+    margin: 30px;
+    margin-right: 30px;  
+} 
+
+.nav{
+    background-color: darkblue;
+    color: white;
+    width: 70%;
+}
+
